@@ -14,15 +14,19 @@ To use this package :
 dependencies:
   flutter:
     sdk: flutter
-  number_to_words: ^0.0.1
+  number_to_words: ^0.0.3
 ```
 
 ### How to use
 
 ```dart
   final NumberToWords _number = NumberToWords();
-  final _num = _number.convert(322323872);
-  debugPrint("Number is: $_num");
+
+  final _num = _number.convert(022); -> Twenty Two
+
+  final _num1 = _number.convert(47474747); -> Forty Seven Million Four Hundred and Seventy Four Thousand Seven Hundred and Forty Seven
+
+ 
 ```
 
 ### Created & Maintained By

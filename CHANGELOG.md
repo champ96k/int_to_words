@@ -6,3 +6,8 @@
 ## 0.0.2
 
 * code refactor + documentation added
+
+
+## 0.0.3
+
+* code refactor + documentation added
