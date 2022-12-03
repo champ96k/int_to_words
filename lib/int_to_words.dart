@@ -1,4 +1,5 @@
 class IntToWords {
+  ///
   final List<String> _units = [
     "Zero",
     "One",
@@ -21,6 +22,8 @@ class IntToWords {
     "Eighteen",
     "Nineteen"
   ];
+
+  ///
   final List<String> _tens = [
     "",
     "",
@@ -34,6 +37,7 @@ class IntToWords {
     "Ninety"
   ];
 
+  ///Recursive [_convert] function to convert [int] to numbers [string]
   String _convert(num i) {
     /// 0 -> 20
     if (i < 20) {
@@ -69,6 +73,8 @@ class IntToWords {
 
   String convert(num i) {
     final _result = _convert(i);
+
+    ///return string result without duplicated spaces
     return _result.replaceAll(RegExp('\\s+'), ' ');
   }
 }
