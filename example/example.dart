@@ -1,5 +1,5 @@
 import 'package:flutter/foundation.dart';
-import 'package:num_to_words/num_to_words.dart';
+import 'package:numbers_to_word/numbers_to_word.dart';
 
 void main() {
   final NumbersToWord _number = NumbersToWord();
