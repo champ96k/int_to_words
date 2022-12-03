@@ -1,7 +1,7 @@
-name: numbers_to_word
+name: int_to_words
 description: Convert number into words
 version: 0.0.1
-homepage: https://github.com/champ96k/numbers_to_word
+homepage: https://github.com/champ96k/int_to_words
 
 environment:
   sdk: ">=2.15.1 <3.0.0"

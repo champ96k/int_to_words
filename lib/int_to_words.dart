@@ -1,4 +1,4 @@
-class NumbersToWord {
+class IntToWords {
   final List<String> _units = [
     "Zero",
     "One",

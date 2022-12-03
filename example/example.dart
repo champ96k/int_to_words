@@ -1,8 +1,8 @@
 import 'package:flutter/foundation.dart';
-import 'package:numbers_to_word/numbers_to_word.dart';
+import 'package:int_to_words/int_to_words.dart';
 
 void main() {
-  final NumbersToWord _number = NumbersToWord();
+  final IntToWords _number = IntToWords();
   final _num = _number.convert(322323872);
   debugPrint("object: $_num");
 
