@@ -8,7 +8,7 @@ This package allows you to easily convert numbers to words.
 
 To use this package :
 
-- add the dependency to your [pubspec.yaml](https://github.com/champ96k/int_to_words/tree/master/example/pubspec.yaml) file.
+- add the dependency to your pubspec.yaml file.
 
 ```yaml
 dependencies:
