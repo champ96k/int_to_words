@@ -4,11 +4,11 @@ This package allows you to easily convert numbers to words.
 
 ## Usage
 
-[Example](https://github.com/champ96k/number_to_words/tree/master/example)
+[Example](https://github.com/champ96k/int_to_words/tree/master/example)
 
 To use this package :
 
-- add the dependency to your [pubspec.yaml](https://github.com/champ96k/number_to_words/tree/master/example/pubspec.yaml) file.
+- add the dependency to your [pubspec.yaml](https://github.com/champ96k/int_to_words/tree/master/example/pubspec.yaml) file.
 
 ```yaml
 dependencies:
