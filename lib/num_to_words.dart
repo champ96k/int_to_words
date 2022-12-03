@@ -1,6 +1,5 @@
-class NumberToWords {
-
- final List<String> _units = [
+class NumbersToWord {
+  final List<String> _units = [
     "Zero",
     "One",
     "Two",
@@ -22,7 +21,7 @@ class NumberToWords {
     "Eighteen",
     "Nineteen"
   ];
- final List<String> _tens = [
+  final List<String> _tens = [
     "",
     "",
     "Twenty",
@@ -40,8 +39,9 @@ class NumberToWords {
     if (i < 20) {
       return _units[i.toInt()];
     }
+
     /// 20 -> 100
-   else if (i < 100){
+    else if (i < 100) {
       return _tens[i ~/ 10] + ((i % 10 > 0) ? " " + _convert(i % 10) : "");
     }
 
@@ -58,17 +58,16 @@ class NumberToWords {
           " Thousand " +
           ((i % 1000 > 0) ? " " + _convert(i % 1000) : "");
     }
+
     /// 1000000 onwards
     else {
       return _convert(i / 1000000) +
           " Million " +
           ((i % 1000000 > 0) ? " " + _convert(i % 1000000) : "");
     }
-
-
   }
 
-   String convert(num i) {
+  String convert(num i) {
     final _result = _convert(i);
     return _result.replaceAll(RegExp('\\s+'), ' ');
   }
