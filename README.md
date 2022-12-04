@@ -14,7 +14,7 @@ To use this package :
 dependencies:
   flutter:
     sdk: flutter
-  number_to_words: ^0.0.3
+  int_to_words: ^0.0.4
 ```
 
 ### How to use

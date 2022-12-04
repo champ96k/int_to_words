@@ -11,3 +11,7 @@
 ## 0.0.3
 
 * code refactor + documentation added
+
+## 0.0.4
+
+* code refactor + documentation added
